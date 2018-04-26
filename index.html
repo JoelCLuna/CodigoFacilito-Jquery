@@ -16,19 +16,18 @@
     <script src="js/jquery.min.js"></script>
     <script>
         $(function () {
-            //show & hide
-            $('.saludo').css({'background-color': 'blue', 'text-align':'center'});
-            //hasClass me devuelve un boleano
-            if($('#parrafo').hasClass('saludo')){
-                alert('si tiene la clase saludo');
-                //removera la clase saludo de parrafo
-                $('#parrafo').show(3000);
-            }
-            else{
-                alert('no tiene la clase saludo');
-                //añade una clase
-                $('div').hide(3000);
-            }
+            //Iterar elementos Each & for tradicional
+            var number =[18,52,53,84,95,56,77,88,];
+            $.each(number, function (key, value) {
+                console.log(key+" : "+value);
+            });
+        });
+        $(function () {
+            var number =[185,52,553,584,955,586,770,808,];
+            console.log("tamaña del arreglo : " +number.length);
+           for (var key = 0; key<number.length; key++ ) {
+               console.log(number[key]);
+           }
         });
     </script>
 </body>
