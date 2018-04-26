@@ -6,16 +6,15 @@
 </head>
 <body>
 <h1 class="saludo">Estamos en curso</h1>
-<p id="parrafo"> Saludos a la banduki</p>
+<p id="parrafo" class="saludo"> Saludos a la banduki</p>
 <div>xD</div>
     <script src="js/jquery.min.js"></script>
     <script>
         $(function () {
-            //nos permite obtener y asignar un valor
-            var s = $('h1').attr('id', 'hola');
-            alert(s);
+            //metodo css
+            $('.saludo').css({'background-color': 'blue', 'text-align':'center'})
         });
     </script>
 </body>
-//getter & setter
+
 </html>
