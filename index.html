@@ -10,25 +10,12 @@
 <div>xD</div>
     <script src="js/jquery.min.js"></script>
     <script>
-   /*     $(document).ready(function () {
-            $('#parrafo').text("que tranza");
-            $('.saludo').css({'background-color':'red'});
-            $('div').text('estamos en el div');
-        });
-        $().ready(function () {
-            alert("segunda forma");
-        });
         $(function () {
-            alert("Primer forma");
+            //nos permite obtener y asignar un valor
+            var s = $('h1').attr('id', 'hola');
+            alert(s);
         });
-        $('h1').ready(function () {
-            alert("cuarta forma");
-        });*/
-      $.when( $.ready, $.getScript("js/index.js") ).then(function() {
-          console.log("pasó");
-      }).catch(function(){
-          console.log("no pasó");
-      });
     </script>
 </body>
+//getter & setter
 </html>
