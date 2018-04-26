@@ -6,13 +6,23 @@
 </head>
 <body>
 <h1 class="saludo">Estamos en curso</h1>
-<p id="parrafo" class="saludo"> Saludos a la banduki</p>
+<p id="parrafo" > Saludos a la banduki</p>
 <div>xD</div>
     <script src="js/jquery.min.js"></script>
     <script>
         $(function () {
-            //metodo css
-            $('.saludo').css({'background-color': 'blue', 'text-align':'center'})
+            //Clases CSS hasClass AddClass removeClass
+            $('.saludo').css({'background-color': 'blue', 'text-align':'center'});
+            //hasClass me devuelve un boleano
+            if($('#parrafo').hasClass('saludo')){
+                alert('si tiene la clase saludo');
+                //removera la clase saludo de parrafo
+                $('#parrafo').removeClass('saludo');
+            }
+            else{
+                alert('no tiene la clase saludo');
+                $('div').addClass('hola')
+            }
         });
     </script>
 </body>
