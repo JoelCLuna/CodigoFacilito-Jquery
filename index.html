@@ -15,7 +15,15 @@
             $('.saludo').css({'background-color':'red'});
             $('div').text('estamos en el div');
         });
-        $().
+        $().ready(function () {
+            alert("segunda forma");
+        });
+        $(function () {
+            alert("Primer forma");
+        });
+        $('h1').ready(function () {
+            alert("cuarta forma");
+        });
     </script>
 </body>
 </html>
