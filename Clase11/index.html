@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Jquery</title>
+</head>
+<body>
+<style type="text/css">
+    .ocultar{
+        display: none;
+    }
+</style>
+<h1 class="saludo">Estamos en curso</h1>
+<p id="parrafo" class="" > Saludos a la banduki</p>
+<img id="buffalo" src="" alt="">
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function () {
+           //iterar elementos con For of
+            var colors = [{
+                "colors":[{
+                    "colorName":"red",
+                    "hexValue" :"#f00"
+                },{
+                    "colorName":"green",
+                    "hexValue" :"#0f0"
+                },{
+                    "colorName":"blue",
+                    "hexValue" :"#00f"
+                }]
+            }];
+           for (let color of colors ) {
+               console.log(color.colors[2].colorName);
+           }
+        });
+    </script>
+</body>
+
+</html>
