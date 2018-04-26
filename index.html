@@ -5,23 +5,29 @@
     <title>Curso Jquery</title>
 </head>
 <body>
+<style type="text/css">
+    .ocultar{
+        display: none;
+    }
+</style>
 <h1 class="saludo">Estamos en curso</h1>
-<p id="parrafo" > Saludos a la banduki</p>
+<p id="parrafo" class="" > Saludos a la banduki</p>
 <div>xD</div>
     <script src="js/jquery.min.js"></script>
     <script>
         $(function () {
-            //Clases CSS hasClass AddClass removeClass
+            //show & hide
             $('.saludo').css({'background-color': 'blue', 'text-align':'center'});
             //hasClass me devuelve un boleano
             if($('#parrafo').hasClass('saludo')){
                 alert('si tiene la clase saludo');
                 //removera la clase saludo de parrafo
-                $('#parrafo').removeClass('saludo');
+                $('#parrafo').show(3000);
             }
             else{
                 alert('no tiene la clase saludo');
-                $('div').addClass('hola')
+                //añade una clase
+                $('div').hide(3000);
             }
         });
     </script>
