@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Jquery</title>
+</head>
+<body>
+    <h1 class="saludo">Estamos en curso</h1>
+    <p id="parrafo" class="" > Saludos a la banduki</p>
+   <style>
+       .cubo{
+           position: absolute;
+           background-color: aqua;
+           width: 50px;
+           height: 50px;
+           margin-top: 5%;
+       }
+   </style>
+    <center>
+        <button id="left" class="fas fa-backward"></button>
+        <button id="right" class="fas fa-forward"></button>
+        <button id="up" class="fas fa-caret-square-up"></button>
+        <button id="down" class="fas fa-caret-square-down"></button>
+        <div class="cubo"></div>
+    </center>
+    <script src="js/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            //metodo animate
+            $('#left').click(function () {
+               $('.cubo').animate({'left':'-=50px'});
+               console.log('left')
+            });
+            $('#right').click(function () {
+                $('.cubo').animate({'left':'+=50px'});
+                console.log('right')
+            });
+            $('#up').click(function () {
+                $('.cubo').animate({'top':'-=50px'});
+                console.log('up')
+            });
+            $('#down').click(function () {
+                $('.cubo').animate({'top':'+=50px'});
+                console.log('down')
+            });
+        });
+    </script>
+</body>
+
+</html>
