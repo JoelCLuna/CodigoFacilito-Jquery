@@ -7,22 +7,27 @@
 <body>
     <h1 class="saludo">Estamos en curso</h1>
     <p id="parrafo" class="" > Saludos a la banduki</p>
-
-    <input type="text" id="in">
-    <label for="">Numero de presiones <span>0</span></label>
+    <center>
+    <h1><i class="fa fa-volume-up" id="icon"></i></h1>
+    </center>
     <script src="js/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
     <script>
         $(function () {
-           //Eventos de teclado
-            $('#in').keydown(function () {
-                $('#in').css({"background-color":"green"})
+           //Eventos de Mouse
+         /*  $('#icon').mousedown(function () {
+               $('#icon').addClass('fa-volume-off').removeClass('fa-volume-up')
+           });
+
+            $('#icon').mouseup(function () {
+                $('#icon').addClass('fa-volume-up').removeClass('fa-volume-off')
+            });*/
+            $('#icon').mouseover(function () {
+                $('#icon').addClass('fa-volume-off').removeClass('fa-volume-up');
             });
-            var i = 0;
-            $('#in').keypress(function () {
-                $("span").text(i += 1)
-            });
-            $('#in').keyup(function () {
-                $('#in').css({"background-color":"white"})
+
+            $('#icon').mouseleave(function () {
+                $('#icon').addClass('fa-volume-up').removeClass('fa-volume-off');
             });
         });
     </script>
