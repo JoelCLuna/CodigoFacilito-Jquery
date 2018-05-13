@@ -1,0 +1,1 @@
+metodo data puede guardar o acceder a cualquier tipo de informacion sobre un elemento.
