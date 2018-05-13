@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Jquery</title>
+</head>
+<body style="height: 1500px">
+    <h1 class="saludo">Estamos en curso</h1>
+    <p id="parrafo" class="" > Saludos a la banduki</p>
+
+    <center>
+        <h1>Buffalo Custom </h1>
+        <ol>
+            <li>ELemento 1</li>
+            <li>ELemento 2</li>
+            <li>ELemento 3</li>
+            <li>ELemento 4</li>
+        </ol>
+        <button id="exe">Ejecutar</button>
+    </center>
+    <script src="js/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <script>
+        //Crear, Copiar, Mover y Remover Elementos
+        $(function() {
+            /*$('#exe').click(function () {
+               $('ol').append('<li>Nuevo Elemento</li>');
+            });*/
+            /*$('#exe').click(function () {
+                $('ol').append($('ol li:first'));
+            });*/
+            $('#exe').click(function () {
+              /*  var clon = $('ol li:last').text();
+                console.log(clon);
+                $('h1').append(clon);
+                $('ol').prepend($('ol li:last'));*/
+              $('ol li:last').remove();
+            });
+        });
+    </script>
+</body>
+
+</html>
