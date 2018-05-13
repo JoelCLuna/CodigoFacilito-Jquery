@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Jquery</title>
+</head>
+<body>
+    <h1 class="saludo">Estamos en curso</h1>
+    <p id="parrafo" class="" > Saludos a la banduki</p>
+    <img id="ableton" src="img/ableton3.jpg" width="600" height="">
+    <button id="btn1">Mostrar</button>
+    <button id="btn2">Ocultar</button>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function () {
+           //Efectos
+            /*$('#btn1').click(function () {
+                $('#ableton').slideUp(3000);
+            });
+            $('#btn2').click(function () {
+                $('#ableton').slideDown(3000);
+            });*/
+            /*$('#btn1').click(function () {
+               $('#ableton').fadeIn(3000);
+            });
+            $('#btn2').click(function () {
+                $('#ableton').fadeOut(3000);
+            });*/
+            $('#btn1').click(function () {
+                $('#ableton').animate({height:"900px"},3000);
+            });
+            $('#btn2').click(function () {
+                $('#ableton').animate({width:"900px"},2000);
+            });
+        });
+    </script>
+</body>
+
+</html>
