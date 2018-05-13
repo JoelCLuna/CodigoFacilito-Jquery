@@ -25,20 +25,21 @@
     </center>
     <script src="js/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script>
         $(function() {
             //metodo animate
             $('body').keyup(function (event) {
                 if(event.keyCode == 37){
-                    $('.cubo').animate({'left':'-=50px'});
+                    $('.cubo').animate({'left':'-=50px'},'slow');
                     console.log('left')
                 }
                 else if (event.keyCode == 39) {
-                    $('.cubo').animate({'left':'+=50px'});
+                    $('.cubo').animate({'left':'+=50px'},'fast');
                     console.log('right');
                 }
                 else if (event.keyCode == 38) {
-                    $('.cubo').animate({'top':'-=50px'});
+                    $('.cubo').animate({'top':'-=50px'},);
                     console.log('up');            
                 } else if (event.keyCode == 40) {
                     $('.cubo').animate({'top':'+=50px'});
@@ -47,6 +48,12 @@
                 else{
                     console.log('Presione las teclas de direccion');
                 }
+            });
+            $('.cubo').click(function () {
+               $(this).animate({
+                  height: ['+=300','easeOutBounce'],
+                   width: ['+=100','swing']
+               },3000);
             });
             /*$('#left').click(function () {
                $('.cubo').animate({'left':'-=50px'});
