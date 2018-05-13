@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6229eb6-dc5e-4a4e-a325-a5501a2a88c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Clase14/efectos.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase14/img/ableton3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase14/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase14/js/buffalo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase14/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase14/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase15/Eventos-Teclado.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase15/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase15/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase15/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,25 +20,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="efectos.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clase14/efectos.md">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clase15/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Eventos-Teclado.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clase15/Eventos-Teclado.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="156">
-                <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Clase14/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-            </state>
-          </provider>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Clase15/js/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -71,6 +72,7 @@
         <option value="$PROJECT_DIR$/Clase13/Dimensiones.md" />
         <option value="$PROJECT_DIR$/Clase14/efectos.md" />
         <option value="$PROJECT_DIR$/Clase14/index.html" />
+        <option value="$PROJECT_DIR$/Clase15/index.html" />
       </list>
     </option>
   </component>
@@ -118,6 +120,17 @@
               <item name="Clase14" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CodigoFacilito-Jquery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodigoFacilito-Jquery" type="462c0819:PsiDirectoryNode" />
+              <item name="Clase15" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodigoFacilito-Jquery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodigoFacilito-Jquery" type="462c0819:PsiDirectoryNode" />
+              <item name="Clase15" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -136,11 +149,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Clase15" />
       <recent name="$PROJECT_DIR$/Clase14" />
       <recent name="$PROJECT_DIR$/Clase13" />
       <recent name="$PROJECT_DIR$/Clase12/repaso" />
       <recent name="$PROJECT_DIR$/Clase13/img" />
-      <recent name="$PROJECT_DIR$/Clase11" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -159,26 +172,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (5)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase12/index.html" />
     <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase11/index.html" />
     <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/CodigoFacilito-Jquery/Clase13/index.html" />
     <configuration name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/CodigoFacilito-Jquery/Clase14/index.html" />
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/index.html" />
+    <configuration name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/CodigoFacilito-Jquery/Clase15/index.html" />
     <list>
       <item itemvalue="JavaScript Debug.index.html (1)" />
-      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
       <item itemvalue="JavaScript Debug.index.html (3)" />
       <item itemvalue="JavaScript Debug.index.html (4)" />
+      <item itemvalue="JavaScript Debug.index.html (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (5)" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -203,25 +216,24 @@
       <workItem from="1524782858883" duration="332000" />
       <workItem from="1524784082771" duration="60000" />
       <workItem from="1524784450800" duration="1331000" />
-      <workItem from="1526228164095" duration="2571000" />
+      <workItem from="1526228164095" duration="3962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16558000" />
+    <option name="totallyTimeSpent" value="17949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="638" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3484603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3484603" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50913423" side_tool="true" weight="0.326284" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49086577" weight="0.326284" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4940429" weight="0.30606487" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4940429" visible="true" weight="0.30606487" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,10 +429,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Clase14/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="142">
           <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase15/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase15/Eventos-Teclado.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase15/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
