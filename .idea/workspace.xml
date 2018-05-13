@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6229eb6-dc5e-4a4e-a325-a5501a2a88c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Clase11/For-of.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase11/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase11/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase11/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase12/repaso/img/ableton3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase12/repaso/img/buffalo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase12/repaso/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase12/repaso/js/buffalo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase12/repaso/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase12/repaso/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase12/repaso/metodo-attr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase13/Dimensiones.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase13/img/ableton3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase13/img/buffalo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase13/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase13/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase13/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,27 +29,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="For-of.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clase11/For-of.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Clase11/index.html">
+        <entry file="file://$PROJECT_DIR$/Clase13/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="292">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clase11/js/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Dimensiones.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clase13/Dimensiones.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="78">
+                <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clase12/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clase12/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -64,8 +90,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Clase12/readme.md" />
         <option value="$PROJECT_DIR$/Clase12/index.html" />
-        <option value="$PROJECT_DIR$/Clase11/For-of.md" />
         <option value="$PROJECT_DIR$/Clase11/index.html" />
+        <option value="$PROJECT_DIR$/Clase11/For-of.md" />
+        <option value="$PROJECT_DIR$/Clase13/metodo-attr.md" />
+        <option value="$PROJECT_DIR$/Clase13/Dimensiones.md" />
+        <option value="$PROJECT_DIR$/Clase13/index.html" />
       </list>
     </option>
   </component>
@@ -79,10 +108,9 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="773" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="638" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -108,6 +136,29 @@
               <item name="CodigoFacilito-Jquery" type="462c0819:PsiDirectoryNode" />
               <item name="Clase12" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CodigoFacilito-Jquery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodigoFacilito-Jquery" type="462c0819:PsiDirectoryNode" />
+              <item name="Clase12" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodigoFacilito-Jquery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodigoFacilito-Jquery" type="462c0819:PsiDirectoryNode" />
+              <item name="Clase12" type="462c0819:PsiDirectoryNode" />
+              <item name="repaso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodigoFacilito-Jquery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodigoFacilito-Jquery" type="462c0819:PsiDirectoryNode" />
+              <item name="Clase13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodigoFacilito-Jquery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodigoFacilito-Jquery" type="462c0819:PsiDirectoryNode" />
+              <item name="Clase13" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -125,12 +176,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Clase13" />
+      <recent name="$PROJECT_DIR$/Clase12/repaso" />
+      <recent name="$PROJECT_DIR$/Clase13/img" />
       <recent name="$PROJECT_DIR$/Clase11" />
       <recent name="$PROJECT_DIR$/Clase12" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,17 +200,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase12/index.html" />
     <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase11/index.html" />
+    <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/CodigoFacilito-Jquery/Clase13/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/index.html" />
     <list>
       <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
+      <item itemvalue="JavaScript Debug.index.html (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -182,26 +240,28 @@
       <workItem from="1524782416474" duration="127000" />
       <workItem from="1524782858883" duration="332000" />
       <workItem from="1524784082771" duration="60000" />
-      <workItem from="1524784450800" duration="996000" />
+      <workItem from="1524784450800" duration="1331000" />
+      <workItem from="1526228164095" duration="1485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13652000" />
+    <option name="totallyTimeSpent" value="15472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="0" width="638" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3484603" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50913423" side_tool="true" weight="0.326284" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49086577" weight="0.326284" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4940429" weight="0.32930514" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4940429" weight="0.30606487" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -218,6 +278,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Clase11/For-of.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase11/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Clase12/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -323,27 +397,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clase11/js/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clase12/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Clase11/For-of.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Clase11/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        <state relative-caret-position="385">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase12/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase12/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase13/Dimensiones.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="78">
+            <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase13/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Jquery</title>
+</head>
+<body>
+<style type="text/css">
+    .ocultar{
+        display: none;
+    }
+</style>
+<h1 class="saludo">Estamos en curso</h1>
+<p id="parrafo" class="" > Saludos a la banduki</p>
+<img id="buffalo" src="img/buffalo.png" alt="">
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function () {
+           //metodo attr
+            $('#buffalo').click(function () {
+                $('#buffalo').attr('src','img/ableton3.jpg');
+            })
+
+        });
+    </script>
+</body>
+
+</html>

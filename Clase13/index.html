@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Jquery</title>
+</head>
+<body>
+<style type="text/css">
+    .ocultar{
+        display: none;
+    }
+</style>
+<h1 class="saludo">Estamos en curso</h1>
+<p id="parrafo" class="" > Saludos a la banduki</p>
+<img id="buffalo" src="img/buffalo.png" alt="">
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function () {
+           //Dimensiones
+            $('#buffalo').click(function () {
+              var orig =  $('#buffalo').width();
+              alert(orig);
+                var w = $('#buffalo').width(300);
+                    alert(w);
+                var h = $('#buffalo').height(300);
+                alert(h);
+
+            });
+
+        });
+    </script>
+</body>
+
+</html>
