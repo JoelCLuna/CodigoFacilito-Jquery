@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6229eb6-dc5e-4a4e-a325-a5501a2a88c6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Clase18/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Clase18/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase21/Eventos-scroll.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase21/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase21/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,21 +19,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Animaciones.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clase18/Animaciones.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Clase21/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Clase18/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+      <file leaf-file-name="Eventos-scroll.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clase21/Eventos-scroll.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="26">
+                <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -70,6 +79,8 @@
         <option value="$PROJECT_DIR$/Clase17/index.html" />
         <option value="$PROJECT_DIR$/Clase17/Metodo-data.md" />
         <option value="$PROJECT_DIR$/Clase18/index.html" />
+        <option value="$PROJECT_DIR$/Clase21/Eventos-scroll.md" />
+        <option value="$PROJECT_DIR$/Clase21/index.html" />
       </list>
     </option>
   </component>
@@ -103,12 +114,12 @@
             <path>
               <item name="CodigoFacilito-Jquery" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodigoFacilito-Jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="Clase18" type="462c0819:PsiDirectoryNode" />
+              <item name="Clase21" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodigoFacilito-Jquery" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodigoFacilito-Jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="Clase18" type="462c0819:PsiDirectoryNode" />
+              <item name="Clase21" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -153,26 +164,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase17/index.html" />
     <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase18/index.html" />
-    <configuration name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/CodigoFacilito-Jquery/Clase14/index.html" />
+    <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase21/index.html" />
     <configuration name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/CodigoFacilito-Jquery/Clase15/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase15/index.html" />
     <list>
-      <item itemvalue="JavaScript Debug.index.html (4)" />
       <item itemvalue="JavaScript Debug.index.html (5)" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
+      <item itemvalue="JavaScript Debug.index.html (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (5)" />
-        <item itemvalue="JavaScript Debug.index.html (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -198,25 +209,25 @@
       <workItem from="1524784082771" duration="60000" />
       <workItem from="1524784450800" duration="1331000" />
       <workItem from="1526228164095" duration="4218000" />
-      <workItem from="1526234089384" duration="5969000" />
+      <workItem from="1526234089384" duration="6547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24174000" />
+    <option name="totallyTimeSpent" value="24752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="638" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24959481" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959481" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50913423" side_tool="true" weight="0.326284" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49086577" weight="0.326284" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50913423" side_tool="true" weight="0.326284" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49086577" weight="0.326284" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4940429" visible="true" weight="0.32863188" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4940429" visible="true" weight="0.32863188" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -227,25 +238,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959481" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4940429" visible="true" weight="0.32863188" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50913423" side_tool="true" weight="0.326284" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49086577" weight="0.326284" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -527,6 +519,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Clase18/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Clase18/Animaciones.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -535,10 +534,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clase18/index.html">
+    <entry file="file://$PROJECT_DIR$/Clase21/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase21/Eventos-scroll.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="26">
+            <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase21/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="188">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
