@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Jquery</title>
+</head>
+<body style="height: 1500px">
+    <h1 class="saludo">Estamos en curso</h1>
+    <p id="parrafo" class="" > Saludos a la banduki</p>
+
+    <center>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/H7pJb49vVQY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </center>
+    <div style="height: 400px">en un espacio</div>
+    <div style="height: 400px">en un espacio</div>
+    <div style="height: 400px">en un espacio</div>
+    <div style="height: 400px">en un espacio</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/videoscroll.js"></script>
+    <script>
+        //JSON parse
+        $(function() {
+            $('.video').vscroll();
+        });
+    </script>
+</body>
+
+</html>
