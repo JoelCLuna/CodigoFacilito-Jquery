@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6229eb6-dc5e-4a4e-a325-a5501a2a88c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Clase23/Padre-hijo-hermano-elementos.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase23/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase23/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase24/Elementos-virtuales.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase24/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clase24/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,23 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Padre-hijo-hermano-elementos.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clase23/Padre-hijo-hermano-elementos.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="14" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Clase23/index.html">
+        <entry file="file://$PROJECT_DIR$/Clase24/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="302">
+              <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -81,6 +69,7 @@
         <option value="$PROJECT_DIR$/Clase22/index.html" />
         <option value="$PROJECT_DIR$/Clase23/Padre-hijo-hermano-elementos.md" />
         <option value="$PROJECT_DIR$/Clase23/index.html" />
+        <option value="$PROJECT_DIR$/Clase24/index.html" />
       </list>
     </option>
   </component>
@@ -115,13 +104,7 @@
             <path>
               <item name="CodigoFacilito-Jquery" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodigoFacilito-Jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="Clase23" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodigoFacilito-Jquery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodigoFacilito-Jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="Clase23" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="Clase24" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,26 +147,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (5)">
-    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase17/index.html" />
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase18/index.html" />
     <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase21/index.html" />
     <configuration name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase22/index.html" />
     <configuration name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase23/index.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CodigoFacilito-Jquery/Clase24/index.html" />
     <list>
-      <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
       <item itemvalue="JavaScript Debug.index.html (3)" />
       <item itemvalue="JavaScript Debug.index.html (4)" />
       <item itemvalue="JavaScript Debug.index.html (5)" />
+      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (5)" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,12 +193,12 @@
       <workItem from="1524784450800" duration="1331000" />
       <workItem from="1526228164095" duration="4218000" />
       <workItem from="1526234089384" duration="7681000" />
-      <workItem from="1526347315033" duration="1113000" />
+      <workItem from="1526347315033" duration="1698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26999000" />
+    <option name="totallyTimeSpent" value="27584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="638" height="800" extended-state="0" />
@@ -228,7 +211,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49086577" weight="0.326284" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4940429" weight="0.32863188" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4940429" visible="true" weight="0.32863188" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -577,6 +560,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Clase23/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clase24/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Clase23/Padre-hijo-hermano-elementos.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -587,10 +580,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clase23/index.html">
+    <entry file="file://$PROJECT_DIR$/Clase24/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="302">
+          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
         </state>
       </provider>
     </entry>
