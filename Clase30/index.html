@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Jquery</title>
+</head>
+<body style="height: 1500px">
+    <h1 class="saludo">Estamos en curso</h1>
+    <p id="parrafo" class="" > Saludos a la banduki</p>
+
+    <center>
+        <h1> AJAX </h1>
+        <input type="text" id="valor1">
+        <input type="text" id="valor2">
+        <input type="submit" value="sumar" id="ejecutar">
+        <h3 id="resultado"></h3>
+    </center>
+    <script src="js/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <script>
+        //JSON parse
+        $(function() {
+            $('#ejecutar').click(function () {
+                sumar($('#valor1').val(),$('#valor2').val());
+            });
+            function sumar(val1,val2) {
+                var parametros = {
+                    "val1":val1,
+                    "val2":val2
+                }
+                $.ajax({
+                    data:parametros,
+                    url:"suma.php",
+                    type:"post",
+                    beforeSend:function () {
+                        console.log("se esta procesando tu peticion");
+                    }
+                })
+                    .done(function (data) {
+                    $('#resultado').text(data);
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
